@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: #244d4d;
+    height: 100vh;
+    width: 100%;
+}
+.header{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header .logo{
+    font-size: 30px;
+    color: #fff;
+}
+.header .logo span{
+    color: orangered;
+}
+.header .logo span sup{
+    font-size: 10px;
+    color: black;
+}
+.header .logo:hover{
+    color: black;
+}
+.header .navbar ul{
+    margin-right: 70px;
+    display: flex;
+    list-style-type: none;
+}
+.header .navbar ul li{
+    margin: 20px 80px;   
+}
+
+.header .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header .navbar ul li a:hover{
+    color: orangered;
+    font-weight: bold;
+}
+.all_info_homepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.all_info_homepage .info_container{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    margin: 30px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+    height: 400px;
+    width: 40%;
+}
+.all_info_homepage .info_container .info_header{
+    color: black;
+    font-size: 30px;
+    margin: 20px;
+
+}
+.all_info_homepage .info_container .info_header h2{
+    line-height: 50px;
+    margin-top: 80px;
+}
+
+.info_container .info_header h2 span{
+    color: orangered;
+}
+.info_container .info_text{
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.info_container .homepagebuttons .btn{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #7ebbbb;
+}
+.info_container .homepagebuttons .btn:hover{
+    color: white;
+    background: #244d4d;
+    padding: 5px;
+}
+.info-pic{
+    /* border: 2px solid black;*/
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 600px;
+    height: 600px;
+    margin-right: 20px;
+    background: url(./homepageinfo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
